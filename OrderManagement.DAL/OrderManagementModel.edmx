@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="OrderManagementDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="OrderLinesTable">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductID" Type="int" Nullable="false" />
+          <Property Name="QuantityOrdered" Type="int" Nullable="false" />
+          <Property Name="SellingPrice" Type="float" Nullable="false" />
+          <Property Name="OrderNumber" Type="int" Nullable="false" />
+          <Property Name="TotalForItem" Type="float" />
+        </EntityType>
+        <EntityType Name="OrdersTable">
+          <Key>
+            <PropertyRef Name="OrderNumber" />
+          </Key>
+          <Property Name="OrderNumber" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="OrderDate" Type="datetime" Nullable="false" />
+          <Property Name="DeliveryAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="OrderStatus" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Total" Type="float" />
+        </EntityType>
+        <EntityType Name="ProductsTable">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Category" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="SubCategory" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Brand" Type="nvarchar" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Price" Type="float" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_OrderLinesTable_Orders_OrderNumber">
+          <End Role="OrdersTable" Type="Self.OrdersTable" Multiplicity="1" />
+          <End Role="OrderLinesTable" Type="Self.OrderLinesTable" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrdersTable">
+              <PropertyRef Name="OrderNumber" />
+            </Principal>
+            <Dependent Role="OrderLinesTable">
+              <PropertyRef Name="OrderNumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrderLinesTable_ToTable">
+          <End Role="ProductsTable" Type="Self.ProductsTable" Multiplicity="1" />
+          <End Role="OrderLinesTable" Type="Self.OrderLinesTable" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProductsTable">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrderLinesTable">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="OrderManagementDBModelStoreContainer">
+          <EntitySet Name="OrderLinesTable" EntityType="Self.OrderLinesTable" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrdersTable" EntityType="Self.OrdersTable" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductsTable" EntityType="Self.ProductsTable" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_OrderLinesTable_Orders_OrderNumber" Association="Self.FK_OrderLinesTable_Orders_OrderNumber">
+            <End Role="OrdersTable" EntitySet="OrdersTable" />
+            <End Role="OrderLinesTable" EntitySet="OrderLinesTable" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrderLinesTable_ToTable" Association="Self.FK_OrderLinesTable_ToTable">
+            <End Role="ProductsTable" EntitySet="ProductsTable" />
+            <End Role="OrderLinesTable" EntitySet="OrderLinesTable" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="OrderManagementDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="OrderLinesTable">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" />
+          <Property Name="QuantityOrdered" Type="Int32" Nullable="false" />
+          <Property Name="SellingPrice" Type="Double" Nullable="false" />
+          <Property Name="OrderNumber" Type="Int32" Nullable="false" />
+          <Property Name="TotalForItem" Type="Double" />
+          <NavigationProperty Name="OrdersTable" Relationship="Self.FK_OrderLinesTable_Orders_OrderNumber" FromRole="OrderLinesTable" ToRole="OrdersTable" />
+          <NavigationProperty Name="ProductsTable" Relationship="Self.FK_OrderLinesTable_ToTable" FromRole="OrderLinesTable" ToRole="ProductsTable" />
+        </EntityType>
+        <EntityType Name="OrdersTable">
+          <Key>
+            <PropertyRef Name="OrderNumber" />
+          </Key>
+          <Property Name="OrderNumber" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="DeliveryAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="OrderStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Total" Type="Double" />
+          <NavigationProperty Name="OrderLinesTable" Relationship="Self.FK_OrderLinesTable_Orders_OrderNumber" FromRole="OrdersTable" ToRole="OrderLinesTable" />
+        </EntityType>
+        <EntityType Name="ProductsTable">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Category" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SubCategory" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Brand" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Price" Type="Double" Nullable="false" />
+          <NavigationProperty Name="OrderLinesTable" Relationship="Self.FK_OrderLinesTable_ToTable" FromRole="ProductsTable" ToRole="OrderLinesTable" />
+        </EntityType>
+        <Association Name="FK_OrderLinesTable_Orders_OrderNumber">
+          <End Role="OrdersTable" Type="Self.OrdersTable" Multiplicity="1" />
+          <End Role="OrderLinesTable" Type="Self.OrderLinesTable" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="OrdersTable">
+              <PropertyRef Name="OrderNumber" />
+            </Principal>
+            <Dependent Role="OrderLinesTable">
+              <PropertyRef Name="OrderNumber" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrderLinesTable_ToTable">
+          <End Role="ProductsTable" Type="Self.ProductsTable" Multiplicity="1" />
+          <End Role="OrderLinesTable" Type="Self.OrderLinesTable" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProductsTable">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrderLinesTable">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="OrderManagementDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="OrderLinesTable" EntityType="Self.OrderLinesTable" />
+          <EntitySet Name="OrdersTable" EntityType="Self.OrdersTable" />
+          <EntitySet Name="ProductsTable" EntityType="Self.ProductsTable" />
+          <AssociationSet Name="FK_OrderLinesTable_Orders_OrderNumber" Association="Self.FK_OrderLinesTable_Orders_OrderNumber">
+            <End Role="OrdersTable" EntitySet="OrdersTable" />
+            <End Role="OrderLinesTable" EntitySet="OrderLinesTable" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrderLinesTable_ToTable" Association="Self.FK_OrderLinesTable_ToTable">
+            <End Role="ProductsTable" EntitySet="ProductsTable" />
+            <End Role="OrderLinesTable" EntitySet="OrderLinesTable" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="OrderManagementDBModelStoreContainer" CdmEntityContainer="OrderManagementDBEntities">
+          <EntitySetMapping Name="OrderLinesTable">
+            <EntityTypeMapping TypeName="OrderManagementDBModel.OrderLinesTable">
+              <MappingFragment StoreEntitySet="OrderLinesTable">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="QuantityOrdered" ColumnName="QuantityOrdered" />
+                <ScalarProperty Name="SellingPrice" ColumnName="SellingPrice" />
+                <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+                <ScalarProperty Name="TotalForItem" ColumnName="TotalForItem" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrdersTable">
+            <EntityTypeMapping TypeName="OrderManagementDBModel.OrdersTable">
+              <MappingFragment StoreEntitySet="OrdersTable">
+                <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+                <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+                <ScalarProperty Name="DeliveryAddress" ColumnName="DeliveryAddress" />
+                <ScalarProperty Name="OrderStatus" ColumnName="OrderStatus" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductsTable">
+            <EntityTypeMapping TypeName="OrderManagementDBModel.ProductsTable">
+              <MappingFragment StoreEntitySet="ProductsTable">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
+                <ScalarProperty Name="SubCategory" ColumnName="SubCategory" />
+                <ScalarProperty Name="Brand" ColumnName="Brand" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

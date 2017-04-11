@@ -1,0 +1,39 @@
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\OrderManagement.DAL\bin\Debug\OrderManagementDB.mdf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\OrderManagement.DAL\bin\Debug\OrderManagementDB_log.ldf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.dll.config
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\OrderManagement.DAL\bin\Debug\EntityFramework.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\OrderManagement.DAL\bin\Debug\EntityFramework.xml
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.csprojResolveAssemblyReference.cache
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\OrderManagement.DAL\bin\Debug\OrderManagementDB.mdf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\OrderManagement.DAL\bin\Debug\OrderManagementDB_log.ldf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.dll.config
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\OrderManagement.DAL\bin\Debug\EntityFramework.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\OrderManagement.DAL\bin\Debug\EntityFramework.xml
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\OrderManagement.DAL\bin\Debug\OrderManagementDB.mdf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\OrderManagement.DAL\bin\Debug\OrderManagementDB_log.ldf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.dll.config
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\OrderManagement.DAL\bin\Debug\EntityFramework.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\OrderManagement.DAL\bin\Debug\EntityFramework.xml
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.csprojResolveAssemblyReference.cache
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\OrderManagement.DAL\bin\Debug\OrderManagementDB.mdf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\OrderManagement.DAL\bin\Debug\OrderManagementDB_log.ldf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.dll.config
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\OrderManagement.DAL\bin\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\OrderManagement.DAL\bin\Debug\EntityFramework.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\OrderManagement.DAL\bin\Debug\EntityFramework.xml
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.csprojResolveAssemblyReference.cache
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\OrderManagement.DAL\obj\Debug\OrderManagement.DAL.pdb

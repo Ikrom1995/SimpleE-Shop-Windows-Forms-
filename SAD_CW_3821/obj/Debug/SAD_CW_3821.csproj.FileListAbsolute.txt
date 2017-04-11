@@ -1,0 +1,81 @@
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821\SAD_CW_3821\bin\Debug\SAD_CW_3821.exe.config
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\bin\Debug\SAD_CW_3821.exe.config
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\bin\Debug\OrderManagementDB.mdf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\bin\Debug\OrderManagementDB_log.ldf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\bin\Debug\SAD_CW_3821.exe
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\bin\Debug\SAD_CW_3821.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\bin\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\bin\Debug\EntityFramework.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\bin\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\bin\Debug\EntityFramework.xml
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.csprojResolveAssemblyReference.cache
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.Properties.Resources.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.csproj.GenerateResource.Cache
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.exe
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.OrderManagement.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.EditProduct.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.AllProducts.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.AddOrder.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.AllOrders.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy\SAD_CW_3821\obj\Debug\SAD_CW_3821.Report.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\bin\Debug\SAD_CW_3821.exe.config
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.exe
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\bin\Debug\OrderManagementDB.mdf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\bin\Debug\OrderManagementDB_log.ldf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\bin\Debug\SAD_CW_3821.exe
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\bin\Debug\SAD_CW_3821.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\bin\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\bin\Debug\EntityFramework.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\bin\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\bin\Debug\EntityFramework.xml
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.csprojResolveAssemblyReference.cache
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.AddOrder.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.AllOrders.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.AllProducts.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.EditProduct.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.OrderManagement.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.Properties.Resources.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.Report.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW_3821 - Copy - Copy (2)\SAD_CW_3821\obj\Debug\SAD_CW_3821.csproj.GenerateResource.Cache
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\bin\Debug\SAD_CW_3821.exe.config
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.exe
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\bin\Debug\OrderManagementDB.mdf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\bin\Debug\OrderManagementDB_log.ldf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\bin\Debug\SAD_CW_3821.exe
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\bin\Debug\SAD_CW_3821.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\bin\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\bin\Debug\EntityFramework.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\bin\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\bin\Debug\EntityFramework.xml
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.csprojResolveAssemblyReference.cache
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.AddOrder.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.AllOrders.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.AllProducts.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.EditProduct.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.OrderManagement.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.Properties.Resources.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.Report.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW2_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.csproj.GenerateResource.Cache
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\bin\Debug\SAD_CW_3821.exe.config
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.exe
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\bin\Debug\OrderManagementDB.mdf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\bin\Debug\OrderManagementDB_log.ldf
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\bin\Debug\SAD_CW_3821.exe
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\bin\Debug\SAD_CW_3821.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\bin\Debug\OrderManagement.DAL.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\bin\Debug\EntityFramework.dll
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\bin\Debug\OrderManagement.DAL.pdb
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\bin\Debug\EntityFramework.xml
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.csprojResolveAssemblyReference.cache
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.AddOrder.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.AllOrders.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.AllProducts.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.EditProduct.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.OrderManagement.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.Properties.Resources.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.Report.resources
+C:\myFolder\WIUT\SAD\Sem2\CW_2\SAD_CW3_3821\SAD_CW_3821\obj\Debug\SAD_CW_3821.csproj.GenerateResource.Cache

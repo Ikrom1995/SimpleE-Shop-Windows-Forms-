@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OrderManagementDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="OrderLinesTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="QuantityOrdered" Type="int" Nullable="false" />
+    <Property Name="SellingPrice" Type="float" Nullable="false" />
+    <Property Name="OrderNumber" Type="int" Nullable="false" />
+    <Property Name="TotalForItem" Type="float" />
+  </EntityType>
+  <EntityType Name="OrdersTable">
+    <Key>
+      <PropertyRef Name="OrderNumber" />
+    </Key>
+    <Property Name="OrderNumber" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderDate" Type="datetime" Nullable="false" />
+    <Property Name="DeliveryAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="OrderStatus" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Total" Type="float" />
+  </EntityType>
+  <EntityType Name="ProductsTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Category" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SubCategory" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Brand" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Price" Type="float" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_OrderLinesTable_Orders_OrderNumber">
+    <End Role="OrdersTable" Type="Self.OrdersTable" Multiplicity="1" />
+    <End Role="OrderLinesTable" Type="Self.OrderLinesTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrdersTable">
+        <PropertyRef Name="OrderNumber" />
+      </Principal>
+      <Dependent Role="OrderLinesTable">
+        <PropertyRef Name="OrderNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderLinesTable_ToTable">
+    <End Role="ProductsTable" Type="Self.ProductsTable" Multiplicity="1" />
+    <End Role="OrderLinesTable" Type="Self.OrderLinesTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductsTable">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OrderLinesTable">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OrderManagementDBModelStoreContainer">
+    <EntitySet Name="OrderLinesTable" EntityType="Self.OrderLinesTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrdersTable" EntityType="Self.OrdersTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductsTable" EntityType="Self.ProductsTable" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_OrderLinesTable_Orders_OrderNumber" Association="Self.FK_OrderLinesTable_Orders_OrderNumber">
+      <End Role="OrdersTable" EntitySet="OrdersTable" />
+      <End Role="OrderLinesTable" EntitySet="OrderLinesTable" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderLinesTable_ToTable" Association="Self.FK_OrderLinesTable_ToTable">
+      <End Role="ProductsTable" EntitySet="ProductsTable" />
+      <End Role="OrderLinesTable" EntitySet="OrderLinesTable" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
